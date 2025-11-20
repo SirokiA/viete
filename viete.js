@@ -5,6 +5,7 @@ document.getElementById("button1").onclick = () =>{
 
     var D = b*b-4*a*c;
     var eredmeny = "" ;
+
     if (D < 0){
         eredmeny = "Nincs megoldás";
     }
@@ -17,7 +18,7 @@ document.getElementById("button1").onclick = () =>{
     else {
         eredmeny = "Két megoldása van";
     }
-    alert("D");
+    
 
 
     document.getElementById("span1").innerHTML = eredmeny;
