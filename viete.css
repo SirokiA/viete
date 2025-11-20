@@ -30,9 +30,11 @@ h3
 	text-decoration:underline;
 	font-style: italic;	
 }
-div.jobbra
+.jobbra
 {
 	float:right;
+	width: 176px;
+    height: 227px;
 }
 .keplet
 {
@@ -42,7 +44,4 @@ form
 {
 	text-align:left;
 	font-size:1.2em;
-}
-.viete{
-	float: right;
 }
