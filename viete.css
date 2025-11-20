@@ -38,10 +38,18 @@ h3
 }
 .keplet
 {
-	text-align:center;
+	display: block;
+    margin: 0 auto;
+	
 }
 form
 {
 	text-align:left;
 	font-size:1.2em;
 }
+
+.sor {
+    display: flex;
+    gap: 10px;
+}
+
